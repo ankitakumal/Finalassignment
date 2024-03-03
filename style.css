@@ -1,0 +1,103 @@
+*{
+    margin: auto;
+}
+body{
+    background-image: url(channels4_profile.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.list{
+    height: 100px;
+}
+
+.list #logo{
+    float:left;
+    display: flex;
+    margin-left: 65px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    border-radius: 50%;
+}
+
+ul{
+    float: left;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 64px;
+    font-size: 28px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+    font-family: "Roboto",sans-serif;
+    font-weight: 800;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.about{
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.about h1{
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+.about .register{
+    background: rgb(240, 158, 5);
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.about .register a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.register:hover{
+    background-color:rgb(212, 50, 21);
+   
+}
+
+.about #top{
+    color: rgb(255, 0, 0);
+}
+
+.about #bottom{
+    color: yellow;
+    font-size: 70px;
+}
+
+p{
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 217, 0);
+    margin: 0px 300px 0px 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
